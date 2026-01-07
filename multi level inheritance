@@ -1,0 +1,26 @@
+class Landline {
+    void call() {
+        System.out.println("ring");
+    }
+}
+class Button_phone extends Landline {
+    void message() {
+        System.out.println("hai");
+    }
+}
+class Smart_phone extends Button_phone {
+    void game() {
+        System.out.println("play");
+        
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	Smart_phone sp= new Smart_phone();
+	sp.call();
+	sp.message();
+	sp.game();
+    
+	}
+}
