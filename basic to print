@@ -1,0 +1,12 @@
+class Hall{
+    void hi() {
+        System.out.println("HELLO");
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	Hall h= new Hall();
+	h.hi();
+	}
+}
